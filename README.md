@@ -76,10 +76,6 @@ npm test
 - Efficient state management using Redux Toolkit.
 - Smooth client-side routing with React Router.
 
-## Deployment
-
-The Library Manager App is deployed and accessible at: [https://your-deployment-link.example.com](https://your-deployment-link.example.com)
-
 ## Useful Links
 
 - [React Documentation](https://reactjs.org/)
