@@ -54,7 +54,69 @@ const BookCard = ({ book, deleteBook }) => {
     return (
       <Card className="h-100 shadow-sm border-0 rounded-4 overflow-hidden" style={{ transition: 'transform 0.3s ease' }}>
         <Form className="p-3">
-          {/* Form fields here */}
+          <Form.Group className="mb-2" controlId="formTitle">
+            <Form.Label>Title</Form.Label>
+            <Form.Control
+              type="text"
+              name="title"
+              value={editedBook.title}
+              onChange={handleInputChange}
+            />
+          </Form.Group>
+          <Form.Group className="mb-2" controlId="formAuthors">
+            <Form.Label>Authors</Form.Label>
+            <Form.Control
+              type="text"
+              name="authors"
+              value={editedBook.authors}
+              onChange={handleInputChange}
+            />
+          </Form.Group>
+          <Form.Group className="mb-2" controlId="formCategories">
+            <Form.Label>Categories</Form.Label>
+            <Form.Control
+              type="text"
+              name="categories"
+              value={editedBook.categories}
+              onChange={handleInputChange}
+            />
+          </Form.Group>
+          <Form.Group className="mb-2" controlId="formPublishedDate">
+            <Form.Label>Published Date</Form.Label>
+            <Form.Control
+              type="date"
+              name="publishedDate"
+              value={editedBook.publishedDate}
+              onChange={handleInputChange}
+            />
+          </Form.Group>
+          <Form.Group className="mb-2" controlId="formPageCount">
+            <Form.Label>Page Count</Form.Label>
+            <Form.Control
+              type="number"
+              name="pageCount"
+              value={editedBook.pageCount}
+              onChange={handleInputChange}
+            />
+          </Form.Group>
+          <Form.Group className="mb-2" controlId="formStatus">
+            <Form.Label>Status</Form.Label>
+            <Form.Control
+              type="text"
+              name="status"
+              value={editedBook.status}
+              onChange={handleInputChange}
+            />
+          </Form.Group>
+          <Form.Group className="mb-2" controlId="formThumbnailUrl">
+            <Form.Label>Image URL</Form.Label>
+            <Form.Control
+              type="text"
+              name="thumbnailUrl"
+              value={editedBook.thumbnailUrl}
+              onChange={handleInputChange}
+            />
+          </Form.Group>
           <div className="d-flex gap-2 mt-2">
             <Button variant="success" onClick={saveChanges}>Save</Button>
             <Button variant="secondary" onClick={cancelEditing}>Cancel</Button>
