@@ -76,6 +76,37 @@ npm test
 - Efficient state management using Redux Toolkit.
 - Smooth client-side routing with React Router.
 
+
+## Screenshots
+
+### Book List View
+
+![Book List View](public/screenshots/book-list-view.png)
+
+### Book Update Form
+
+![Book Update Form](public/screenshots/book-update-form.png)
+
+
+### Add to Favorite Page
+
+![Add to Favorite](public/screenshots/Add-to-fav.png)
+
+### Favorites Page
+
+![Favorites Page](public/screenshots/favorites-page.png)
+
+
+### Advanced Search Page
+
+![Advanced Search](public/screenshots/Advanced-Search-page.png)
+![](public/screenshots/Search_list_page.png)
+
+
+### Local Storage
+
+![Local Storage](public/screenshots/Local-Storage.png)
+
 ## Useful Links
 
 - [React Documentation](https://reactjs.org/)
